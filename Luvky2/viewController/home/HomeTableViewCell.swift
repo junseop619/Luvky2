@@ -6,6 +6,11 @@
 //
 
 import UIKit
+import Amplify
+
+import KakaoSDKAuth
+import KakaoSDKCommon
+import KakaoSDKUser
 
 class HomeTableViewCell: UITableViewCell {
     
@@ -16,22 +21,19 @@ class HomeTableViewCell: UITableViewCell {
     @IBOutlet var articleUserLocal: UILabel!
     @IBOutlet var articleTitleImg: UIImageView!
     @IBOutlet var articleUserMember: UILabel!
-    
-    
     @IBOutlet var articleTitle: UILabel!
+    
+    @IBOutlet var articleDate: UILabel!
+    
     
     private let upperView = UIView()
     private let lowerView = UIView()
 
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
     }
-
+    
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
     }
-
 }

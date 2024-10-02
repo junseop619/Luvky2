@@ -1,0 +1,21 @@
+{
+    "appName": "luvky2",
+    "roleName": "pinpointLambdaRole0b4e1423",
+    "cloudformationPolicyName": "cloudformationPolicy0b4e1423",
+    "cloudWatchPolicyName": "cloudWatchPolicy0b4e1423",
+    "pinpointPolicyName": "pinpointPolicy0b4e1423",
+    "authPolicyName": "pinpoint_amplify_0b4e1423",
+    "unauthPolicyName": "pinpoint_amplify_0b4e1423",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}

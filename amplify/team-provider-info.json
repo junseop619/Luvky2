@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-luvky2-dev-205328-authRole",
+      "UnauthRoleArn": "arn:aws:iam::672784417023:role/amplify-luvky2-dev-205328-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::672784417023:role/amplify-luvky2-dev-205328-authRole",
+      "Region": "ap-northeast-2",
+      "DeploymentBucketName": "amplify-luvky2-dev-205328-deployment",
+      "UnauthRoleName": "amplify-luvky2-dev-205328-unauthRole",
+      "StackName": "amplify-luvky2-dev-205328",
+      "StackId": "arn:aws:cloudformation:ap-northeast-2:672784417023:stack/amplify-luvky2-dev-205328/e2517950-2173-11ee-98c6-0676ebafce42",
+      "AmplifyAppId": "dsa8a9ymh77ig"
+    },
+    "categories": {
+      "api": {
+        "amplifyDatasource": {}
+      },
+      "auth": {
+        "luvky2b1a73c0f": {}
+      },
+      "storage": {
+        "S3friendlyName": {}
+      }
+    }
+  }
+}

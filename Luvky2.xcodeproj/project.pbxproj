@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		227E0722B559003DD99F8F6E /* ChatChannel+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D75624D40D076523958B8C /* ChatChannel+Schema.swift */; };
 		288231D79F6E65E0A43B5694 /* Notice+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBB87C5642422665484E786 /* Notice+Schema.swift */; };
 		3EE0F6A723EA1939F829673C /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C99A31377AF51EAC748044 /* Image.swift */; };
 		541B9C3A0C5CC0423D7F8DD5 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 5D32E16C140AB32AD672BED9 /* amplifyconfiguration.json */; };
-		747F76C755C0F6DCAB4CBBAB /* Todo+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA3325D0F1A303494782DE5 /* Todo+Schema.swift */; };
+		5B81D40E8EBE7FEB9D7B6B92 /* ChatChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C0F076F32D625674C180D3 /* ChatChannel.swift */; };
 		7603D92F2A5D38B500DBEC92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7603D92E2A5D38B500DBEC92 /* AppDelegate.swift */; };
 		7603D9312A5D38B500DBEC92 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7603D9302A5D38B500DBEC92 /* SceneDelegate.swift */; };
 		7603D9332A5D38B500DBEC92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7603D9322A5D38B500DBEC92 /* ViewController.swift */; };
@@ -30,17 +31,42 @@
 		7603D9762A5D3B1700DBEC92 /* parameters.json in Resources */ = {isa = PBXBuildFile; fileRef = 7603D96F2A5D3B1700DBEC92 /* parameters.json */; };
 		7603D9772A5D3B1700DBEC92 /* schema.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 7603D9702A5D3B1700DBEC92 /* schema.graphql */; };
 		7603D9782A5D3B1700DBEC92 /* transform.conf.json in Resources */ = {isa = PBXBuildFile; fileRef = 7603D9712A5D3B1700DBEC92 /* transform.conf.json */; };
+		7608B21E2ACC36DE00AFA44C /* ImageMediaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7608B21D2ACC36DE00AFA44C /* ImageMediaItem.swift */; };
+		7608B2212ACC377A00AFA44C /* Sender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7608B2202ACC377A00AFA44C /* Sender.swift */; };
+		76144F6D2A7280550075DA7A /* JoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76144F6C2A7280550075DA7A /* JoinViewController.swift */; };
+		7618AA132B61338300E136D0 /* apple_login_btn.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7618AA122B61338300E136D0 /* apple_login_btn.jpeg */; };
 		761D9C932A5ED0320096F078 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761D9C922A5ED0320096F078 /* LoginViewController.swift */; };
 		761D9C952A5ED0680096F078 /* FirstTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761D9C942A5ED0680096F078 /* FirstTabBarViewController.swift */; };
 		761ED0E62A5D70030006D045 /* KakaoSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 761ED0E52A5D70030006D045 /* KakaoSDK */; };
 		761ED0E82A5D70030006D045 /* KakaoSDKAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 761ED0E72A5D70030006D045 /* KakaoSDKAuth */; };
 		761ED0EA2A5D70030006D045 /* KakaoSDKCommon in Frameworks */ = {isa = PBXBuildFile; productRef = 761ED0E92A5D70030006D045 /* KakaoSDKCommon */; };
 		761ED0EC2A5D70030006D045 /* KakaoSDKUser in Frameworks */ = {isa = PBXBuildFile; productRef = 761ED0EB2A5D70030006D045 /* KakaoSDKUser */; };
+		7643E91F2ADBFB1B0060E324 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7643E91E2ADBFB1B0060E324 /* Message.swift */; };
+		764573172B53CBB10010101B /* AWSPinpointPushNotificationsPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = 764573162B53CBB10010101B /* AWSPinpointPushNotificationsPlugin */; };
+		765814692AFFA925001D8853 /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765814682AFFA925001D8853 /* SettingTableViewController.swift */; };
+		7658146B2AFFA92B001D8853 /* SettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7658146A2AFFA92B001D8853 /* SettingTableViewCell.swift */; };
 		765AEC9B2A5E6084000B4B26 /* test1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 765AEC9A2A5E6084000B4B26 /* test1.jpeg */; };
 		765AEC9D2A5E608B000B4B26 /* test2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 765AEC9C2A5E608B000B4B26 /* test2.jpeg */; };
 		765AEC9F2A5E6092000B4B26 /* test3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 765AEC9E2A5E6092000B4B26 /* test3.jpeg */; };
+		765EA26C2AC0430E00F5D98E /* MessageKit in Frameworks */ = {isa = PBXBuildFile; productRef = 765EA26B2AC0430E00F5D98E /* MessageKit */; };
+		765EA26E2AC0439B00F5D98E /* ChattingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765EA26D2AC0439B00F5D98E /* ChattingViewController.swift */; };
+		765FFBD52B5565650085A227 /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765FFBD42B5565650085A227 /* UserInfoViewController.swift */; };
+		765FFBD72B556B7D0085A227 /* ServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765FFBD62B556B7D0085A227 /* ServiceViewController.swift */; };
+		7664AD5B2A9F449800935421 /* BMJUA_otf.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7664AD5A2A9F449800935421 /* BMJUA_otf.otf */; };
+		767A71A82ACF03B5005C695E /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767A71A72ACF03B5005C695E /* UIColor.swift */; };
+		7684DE342A86593900C57E48 /* UpdateNoticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7684DE332A86593900C57E48 /* UpdateNoticeViewController.swift */; };
+		768512262A7BAC8200159C9B /* Luvky_Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 768512252A7BAC8200159C9B /* Luvky_Icon.png */; };
+		769E3B802ABDBD9F0087A252 /* ChatListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769E3B7F2ABDBD9F0087A252 /* ChatListTableViewCell.swift */; };
+		769E3B822ABDBDB40087A252 /* ChatListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769E3B812ABDBDB40087A252 /* ChatListTableViewController.swift */; };
+		76C4373C2A72358100F0C7DC /* kakao_login_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 76C4373B2A72358100F0C7DC /* kakao_login_btn.png */; };
+		76CF05ED2A78BFA3005734EE /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CF05EC2A78BFA3005734EE /* ProfileViewController.swift */; };
+		76CF05EF2A78C1BF005734EE /* SettingProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CF05EE2A78C1BF005734EE /* SettingProfileViewController.swift */; };
 		76E587832A603F2F001374CA /* AWSS3StoragePlugin in Frameworks */ = {isa = PBXBuildFile; productRef = 76E587822A603F2F001374CA /* AWSS3StoragePlugin */; };
 		76E587852A603F3D001374CA /* AWSCognitoAuthPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = 76E587842A603F3D001374CA /* AWSCognitoAuthPlugin */; };
+		76F5C1352B6380310018AD64 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F5C1342B6380310018AD64 /* Utils.swift */; };
+		76F5C1382B63B0F50018AD64 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 76F5C1372B63B0F50018AD64 /* Alamofire */; };
+		76F5C13B2B63B68C0018AD64 /* AppleTokenResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F5C13A2B63B68C0018AD64 /* AppleTokenResponse.swift */; };
+		76F5C13D2B63E9670018AD64 /* kakao_login_medium_wide.png in Resources */ = {isa = PBXBuildFile; fileRef = 76F5C13C2B63E9670018AD64 /* kakao_login_medium_wide.png */; };
 		76FF20442A5E27EE00DE0FBC /* AddArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FF20432A5E27EE00DE0FBC /* AddArticleViewController.swift */; };
 		76FF20462A5E281400DE0FBC /* DetailArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FF20452A5E281400DE0FBC /* DetailArticleViewController.swift */; };
 		76FF20492A5E285600DE0FBC /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FF20482A5E285600DE0FBC /* HomeTableViewCell.swift */; };
@@ -48,8 +74,13 @@
 		872425F543F42DF8957C5824 /* AmplifyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5B91EFE9F0805A3B00B5B1 /* AmplifyModels.swift */; };
 		9384D9D12BBEAB635D685A94 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 2BEF771E22CC717D1E5F62AA /* awsconfiguration.json */; };
 		9489777580FDC26558FFAFC2 /* Image+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368B98A9392E46934EF7311D /* Image+Schema.swift */; };
+		A23B92B86B62DA1F35B832C4 /* Attend+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EBFD3A54A95F6FE29DEA63 /* Attend+Schema.swift */; };
 		A308F5244E12D2D9FB4F9364 /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCADCC388DEE74177C24D03 /* Priority.swift */; };
-		CFF7903CB26AE4741CD9B264 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF858FC60E5F91A43B904A9B /* Todo.swift */; };
+		B435F9584ACCAF2F53166DBC /* User+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4745C946396413CBAB7E557 /* User+Schema.swift */; };
+		BA096AFF8AE16CBE7A4903AD /* Attend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBDA4436624C6D57B059A56 /* Attend.swift */; };
+		BD3DA7BBC1F42084A48235A4 /* ChatMessage+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319F97FF0D76736B78C5C9CF /* ChatMessage+Schema.swift */; };
+		DA4A6612403901643AE6E4E0 /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF3E7BDA0A5F9F09CC7E06B /* ChatMessage.swift */; };
+		F525FF85D017BFA05CC65105 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5929BEDC401A5560BDC0B13 /* User.swift */; };
 		F7CD607DB9E92AA1D6F1E726 /* Notice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B894FD28BB5595D929650DD /* Notice.swift */; };
 /* End PBXBuildFile section */
 
@@ -71,11 +102,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0FBDA4436624C6D57B059A56 /* Attend.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Attend.swift; path = amplify/generated/models/Attend.swift; sourceTree = "<group>"; };
+		14C0F076F32D625674C180D3 /* ChatChannel.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = ChatChannel.swift; path = amplify/generated/models/ChatChannel.swift; sourceTree = "<group>"; };
+		14EBFD3A54A95F6FE29DEA63 /* Attend+Schema.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = "Attend+Schema.swift"; path = "amplify/generated/models/Attend+Schema.swift"; sourceTree = "<group>"; };
 		2BEF771E22CC717D1E5F62AA /* awsconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
-		368B98A9392E46934EF7311D /* Image+Schema.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; lastKnownFileType = sourcecode.swift; name = "Image+Schema.swift"; path = "amplify/generated/models/Image+Schema.swift"; sourceTree = "<group>"; };
+		319F97FF0D76736B78C5C9CF /* ChatMessage+Schema.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = "ChatMessage+Schema.swift"; path = "amplify/generated/models/ChatMessage+Schema.swift"; sourceTree = "<group>"; };
+		368B98A9392E46934EF7311D /* Image+Schema.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = "Image+Schema.swift"; path = "amplify/generated/models/Image+Schema.swift"; sourceTree = "<group>"; };
 		3F5B91EFE9F0805A3B00B5B1 /* AmplifyModels.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = AmplifyModels.swift; path = amplify/generated/models/AmplifyModels.swift; sourceTree = "<group>"; };
-		4B894FD28BB5595D929650DD /* Notice.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; lastKnownFileType = sourcecode.swift; name = Notice.swift; path = amplify/generated/models/Notice.swift; sourceTree = "<group>"; };
+		4B894FD28BB5595D929650DD /* Notice.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Notice.swift; path = amplify/generated/models/Notice.swift; sourceTree = "<group>"; };
+		4EF3E7BDA0A5F9F09CC7E06B /* ChatMessage.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = ChatMessage.swift; path = amplify/generated/models/ChatMessage.swift; sourceTree = "<group>"; };
 		5D32E16C140AB32AD672BED9 /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = amplifyconfiguration.json; sourceTree = "<group>"; };
+		63D75624D40D076523958B8C /* ChatChannel+Schema.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = "ChatChannel+Schema.swift"; path = "amplify/generated/models/ChatChannel+Schema.swift"; sourceTree = "<group>"; };
 		7603D92B2A5D38B500DBEC92 /* Luvky2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Luvky2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7603D92E2A5D38B500DBEC92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7603D9302A5D38B500DBEC92 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -96,20 +133,44 @@
 		7603D96F2A5D3B1700DBEC92 /* parameters.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = parameters.json; sourceTree = "<group>"; };
 		7603D9702A5D3B1700DBEC92 /* schema.graphql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = schema.graphql; sourceTree = "<group>"; };
 		7603D9712A5D3B1700DBEC92 /* transform.conf.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = transform.conf.json; sourceTree = "<group>"; };
+		7608B21D2ACC36DE00AFA44C /* ImageMediaItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageMediaItem.swift; sourceTree = "<group>"; };
+		7608B2202ACC377A00AFA44C /* Sender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sender.swift; sourceTree = "<group>"; };
+		76144F6C2A7280550075DA7A /* JoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinViewController.swift; sourceTree = "<group>"; };
+		7618AA112B61272D00E136D0 /* Luvky2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Luvky2.entitlements; sourceTree = "<group>"; };
+		7618AA122B61338300E136D0 /* apple_login_btn.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apple_login_btn.jpeg; sourceTree = "<group>"; };
 		761D9C922A5ED0320096F078 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		761D9C942A5ED0680096F078 /* FirstTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabBarViewController.swift; sourceTree = "<group>"; };
+		7643E91E2ADBFB1B0060E324 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		764573152B5389340010101B /* Luvky2Debug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Luvky2Debug.entitlements; sourceTree = "<group>"; };
+		765814682AFFA925001D8853 /* SettingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
+		7658146A2AFFA92B001D8853 /* SettingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingTableViewCell.swift; sourceTree = "<group>"; };
 		765AEC9A2A5E6084000B4B26 /* test1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test1.jpeg; sourceTree = "<group>"; };
 		765AEC9C2A5E608B000B4B26 /* test2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test2.jpeg; sourceTree = "<group>"; };
 		765AEC9E2A5E6092000B4B26 /* test3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test3.jpeg; sourceTree = "<group>"; };
+		765EA26D2AC0439B00F5D98E /* ChattingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChattingViewController.swift; sourceTree = "<group>"; };
+		765FFBD42B5565650085A227 /* UserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
+		765FFBD62B556B7D0085A227 /* ServiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceViewController.swift; sourceTree = "<group>"; };
+		7664AD5A2A9F449800935421 /* BMJUA_otf.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BMJUA_otf.otf; sourceTree = "<group>"; };
+		767A71A72ACF03B5005C695E /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		7684DE332A86593900C57E48 /* UpdateNoticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateNoticeViewController.swift; sourceTree = "<group>"; };
+		768512252A7BAC8200159C9B /* Luvky_Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Luvky_Icon.png; sourceTree = "<group>"; };
+		769E3B7F2ABDBD9F0087A252 /* ChatListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListTableViewCell.swift; sourceTree = "<group>"; };
+		769E3B812ABDBDB40087A252 /* ChatListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListTableViewController.swift; sourceTree = "<group>"; };
+		76C4373B2A72358100F0C7DC /* kakao_login_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kakao_login_btn.png; sourceTree = "<group>"; };
+		76CF05EC2A78BFA3005734EE /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		76CF05EE2A78C1BF005734EE /* SettingProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingProfileViewController.swift; sourceTree = "<group>"; };
+		76F5C1342B6380310018AD64 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		76F5C13A2B63B68C0018AD64 /* AppleTokenResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleTokenResponse.swift; sourceTree = "<group>"; };
+		76F5C13C2B63E9670018AD64 /* kakao_login_medium_wide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kakao_login_medium_wide.png; sourceTree = "<group>"; };
 		76FF20432A5E27EE00DE0FBC /* AddArticleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddArticleViewController.swift; sourceTree = "<group>"; };
 		76FF20452A5E281400DE0FBC /* DetailArticleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailArticleViewController.swift; sourceTree = "<group>"; };
 		76FF20482A5E285600DE0FBC /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 		76FF204A2A5E3BA000DE0FBC /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
-		94C99A31377AF51EAC748044 /* Image.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; lastKnownFileType = sourcecode.swift; name = Image.swift; path = amplify/generated/models/Image.swift; sourceTree = "<group>"; };
-		BF858FC60E5F91A43B904A9B /* Todo.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Todo.swift; path = amplify/generated/models/Todo.swift; sourceTree = "<group>"; };
-		DAA3325D0F1A303494782DE5 /* Todo+Schema.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = "Todo+Schema.swift"; path = "amplify/generated/models/Todo+Schema.swift"; sourceTree = "<group>"; };
+		94C99A31377AF51EAC748044 /* Image.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Image.swift; path = amplify/generated/models/Image.swift; sourceTree = "<group>"; };
 		DDCADCC388DEE74177C24D03 /* Priority.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Priority.swift; path = amplify/generated/models/Priority.swift; sourceTree = "<group>"; };
-		DEBB87C5642422665484E786 /* Notice+Schema.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; lastKnownFileType = sourcecode.swift; name = "Notice+Schema.swift"; path = "amplify/generated/models/Notice+Schema.swift"; sourceTree = "<group>"; };
+		DEBB87C5642422665484E786 /* Notice+Schema.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = "Notice+Schema.swift"; path = "amplify/generated/models/Notice+Schema.swift"; sourceTree = "<group>"; };
+		E5929BEDC401A5560BDC0B13 /* User.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = User.swift; path = amplify/generated/models/User.swift; sourceTree = "<group>"; };
+		F4745C946396413CBAB7E557 /* User+Schema.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = "User+Schema.swift"; path = "amplify/generated/models/User+Schema.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,10 +183,13 @@
 				7603D9602A5D3ADC00DBEC92 /* AWSAPIPlugin in Frameworks */,
 				761ED0EC2A5D70030006D045 /* KakaoSDKUser in Frameworks */,
 				7603D9622A5D3ADC00DBEC92 /* AWSDataStorePlugin in Frameworks */,
+				764573172B53CBB10010101B /* AWSPinpointPushNotificationsPlugin in Frameworks */,
 				76E587852A603F3D001374CA /* AWSCognitoAuthPlugin in Frameworks */,
 				761ED0EA2A5D70030006D045 /* KakaoSDKCommon in Frameworks */,
 				761ED0E82A5D70030006D045 /* KakaoSDKAuth in Frameworks */,
+				76F5C1382B63B0F50018AD64 /* Alamofire in Frameworks */,
 				76E587832A603F2F001374CA /* AWSS3StoragePlugin in Frameworks */,
+				765EA26C2AC0430E00F5D98E /* MessageKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +213,7 @@
 		7603D9222A5D38B500DBEC92 = {
 			isa = PBXGroup;
 			children = (
+				768512252A7BAC8200159C9B /* Luvky_Icon.png */,
 				7603D9652A5D3B1700DBEC92 /* amplify */,
 				7603D92D2A5D38B500DBEC92 /* Luvky2 */,
 				7603D9442A5D38B600DBEC92 /* Luvky2Tests */,
@@ -173,6 +238,10 @@
 		7603D92D2A5D38B500DBEC92 /* Luvky2 */ = {
 			isa = PBXGroup;
 			children = (
+				7618AA112B61272D00E136D0 /* Luvky2.entitlements */,
+				764573152B5389340010101B /* Luvky2Debug.entitlements */,
+				767A71A62ACF0391005C695E /* Extension */,
+				7664AD582A9F349C00935421 /* Font */,
 				765AEC972A5E6022000B4B26 /* image */,
 				76FF203D2A5E261F00DE0FBC /* viewController */,
 				7603D92E2A5D38B500DBEC92 /* AppDelegate.swift */,
@@ -257,11 +326,23 @@
 			path = stacks;
 			sourceTree = "<group>";
 		};
+		7608B21F2ACC376000AFA44C /* chatStruct */ = {
+			isa = PBXGroup;
+			children = (
+				7608B21D2ACC36DE00AFA44C /* ImageMediaItem.swift */,
+				7608B2202ACC377A00AFA44C /* Sender.swift */,
+				7643E91E2ADBFB1B0060E324 /* Message.swift */,
+			);
+			path = chatStruct;
+			sourceTree = "<group>";
+		};
 		761D9C8B2A5EC6920096F078 /* auth */ = {
 			isa = PBXGroup;
 			children = (
+				76F5C1392B63B5F30018AD64 /* apple */,
 				761D9C922A5ED0320096F078 /* LoginViewController.swift */,
 				761D9C942A5ED0680096F078 /* FirstTabBarViewController.swift */,
+				76144F6C2A7280550075DA7A /* JoinViewController.swift */,
 			);
 			path = auth;
 			sourceTree = "<group>";
@@ -285,11 +366,75 @@
 		765AEC992A5E6038000B4B26 /* test */ = {
 			isa = PBXGroup;
 			children = (
+				7618AA122B61338300E136D0 /* apple_login_btn.jpeg */,
+				76F5C13C2B63E9670018AD64 /* kakao_login_medium_wide.png */,
+				76C4373B2A72358100F0C7DC /* kakao_login_btn.png */,
 				765AEC9E2A5E6092000B4B26 /* test3.jpeg */,
 				765AEC9C2A5E608B000B4B26 /* test2.jpeg */,
 				765AEC9A2A5E6084000B4B26 /* test1.jpeg */,
 			);
 			path = test;
+			sourceTree = "<group>";
+		};
+		765FFBD32B5565400085A227 /* webView */ = {
+			isa = PBXGroup;
+			children = (
+				765FFBD42B5565650085A227 /* UserInfoViewController.swift */,
+				765FFBD62B556B7D0085A227 /* ServiceViewController.swift */,
+			);
+			path = webView;
+			sourceTree = "<group>";
+		};
+		7664AD582A9F349C00935421 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				7664AD5A2A9F449800935421 /* BMJUA_otf.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		7678D8122A77CD6B003D9095 /* profile */ = {
+			isa = PBXGroup;
+			children = (
+				76CF05EC2A78BFA3005734EE /* ProfileViewController.swift */,
+				76CF05EE2A78C1BF005734EE /* SettingProfileViewController.swift */,
+			);
+			path = profile;
+			sourceTree = "<group>";
+		};
+		767A71A62ACF0391005C695E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				767A71A72ACF03B5005C695E /* UIColor.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		769D5FE92ABD84C3003995BA /* chat */ = {
+			isa = PBXGroup;
+			children = (
+				769D5FEB2ABD855A003995BA /* chat */,
+				769D5FEA2ABD8552003995BA /* room */,
+			);
+			path = chat;
+			sourceTree = "<group>";
+		};
+		769D5FEA2ABD8552003995BA /* room */ = {
+			isa = PBXGroup;
+			children = (
+				769E3B7F2ABDBD9F0087A252 /* ChatListTableViewCell.swift */,
+				769E3B812ABDBDB40087A252 /* ChatListTableViewController.swift */,
+			);
+			path = room;
+			sourceTree = "<group>";
+		};
+		769D5FEB2ABD855A003995BA /* chat */ = {
+			isa = PBXGroup;
+			children = (
+				7608B21F2ACC376000AFA44C /* chatStruct */,
+				765EA26D2AC0439B00F5D98E /* ChattingViewController.swift */,
+			);
+			path = chat;
 			sourceTree = "<group>";
 		};
 		76E587812A603F2F001374CA /* Frameworks */ = {
@@ -299,11 +444,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		76F5C1392B63B5F30018AD64 /* apple */ = {
+			isa = PBXGroup;
+			children = (
+				76F5C1342B6380310018AD64 /* Utils.swift */,
+				76F5C13A2B63B68C0018AD64 /* AppleTokenResponse.swift */,
+			);
+			path = apple;
+			sourceTree = "<group>";
+		};
 		76FF203D2A5E261F00DE0FBC /* viewController */ = {
 			isa = PBXGroup;
 			children = (
+				769D5FE92ABD84C3003995BA /* chat */,
+				7678D8122A77CD6B003D9095 /* profile */,
 				761D9C8B2A5EC6920096F078 /* auth */,
-				76FF20402A5E268700DE0FBC /* message */,
 				76FF203F2A5E267900DE0FBC /* setting */,
 				76FF203E2A5E266E00DE0FBC /* home */,
 			);
@@ -317,6 +472,7 @@
 				76FF20452A5E281400DE0FBC /* DetailArticleViewController.swift */,
 				76FF20482A5E285600DE0FBC /* HomeTableViewCell.swift */,
 				76FF204A2A5E3BA000DE0FBC /* HomeTableViewController.swift */,
+				7684DE332A86593900C57E48 /* UpdateNoticeViewController.swift */,
 			);
 			path = home;
 			sourceTree = "<group>";
@@ -324,15 +480,11 @@
 		76FF203F2A5E267900DE0FBC /* setting */ = {
 			isa = PBXGroup;
 			children = (
+				765FFBD32B5565400085A227 /* webView */,
+				7658146A2AFFA92B001D8853 /* SettingTableViewCell.swift */,
+				765814682AFFA925001D8853 /* SettingTableViewController.swift */,
 			);
 			path = setting;
-			sourceTree = "<group>";
-		};
-		76FF20402A5E268700DE0FBC /* message */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = message;
 			sourceTree = "<group>";
 		};
 		A85257230DB5865100B80B3F /* AmplifyConfig */ = {
@@ -349,12 +501,18 @@
 			children = (
 				3F5B91EFE9F0805A3B00B5B1 /* AmplifyModels.swift */,
 				DDCADCC388DEE74177C24D03 /* Priority.swift */,
-				DAA3325D0F1A303494782DE5 /* Todo+Schema.swift */,
-				BF858FC60E5F91A43B904A9B /* Todo.swift */,
 				DEBB87C5642422665484E786 /* Notice+Schema.swift */,
 				4B894FD28BB5595D929650DD /* Notice.swift */,
 				368B98A9392E46934EF7311D /* Image+Schema.swift */,
 				94C99A31377AF51EAC748044 /* Image.swift */,
+				F4745C946396413CBAB7E557 /* User+Schema.swift */,
+				E5929BEDC401A5560BDC0B13 /* User.swift */,
+				14EBFD3A54A95F6FE29DEA63 /* Attend+Schema.swift */,
+				0FBDA4436624C6D57B059A56 /* Attend.swift */,
+				319F97FF0D76736B78C5C9CF /* ChatMessage+Schema.swift */,
+				4EF3E7BDA0A5F9F09CC7E06B /* ChatMessage.swift */,
+				63D75624D40D076523958B8C /* ChatChannel+Schema.swift */,
+				14C0F076F32D625674C180D3 /* ChatChannel.swift */,
 			);
 			name = AmplifyModels;
 			sourceTree = "<group>";
@@ -385,6 +543,9 @@
 				761ED0EB2A5D70030006D045 /* KakaoSDKUser */,
 				76E587822A603F2F001374CA /* AWSS3StoragePlugin */,
 				76E587842A603F3D001374CA /* AWSCognitoAuthPlugin */,
+				765EA26B2AC0430E00F5D98E /* MessageKit */,
+				764573162B53CBB10010101B /* AWSPinpointPushNotificationsPlugin */,
+				76F5C1372B63B0F50018AD64 /* Alamofire */,
 			);
 			productName = Luvky2;
 			productReference = 7603D92B2A5D38B500DBEC92 /* Luvky2.app */;
@@ -461,6 +622,8 @@
 			packageReferences = (
 				7603D95E2A5D3ADC00DBEC92 /* XCRemoteSwiftPackageReference "amplify-swift" */,
 				761ED0E42A5D70030006D045 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */,
+				765EA26A2AC0430E00F5D98E /* XCRemoteSwiftPackageReference "MessageKit" */,
+				76F5C1362B63B0F50018AD64 /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = 7603D92C2A5D38B500DBEC92 /* Products */;
 			projectDirPath = "";
@@ -481,16 +644,21 @@
 				7603D93B2A5D38B600DBEC92 /* LaunchScreen.storyboard in Resources */,
 				765AEC9B2A5E6084000B4B26 /* test1.jpeg in Resources */,
 				7603D9382A5D38B600DBEC92 /* Assets.xcassets in Resources */,
+				7618AA132B61338300E136D0 /* apple_login_btn.jpeg in Resources */,
 				7603D9362A5D38B500DBEC92 /* Main.storyboard in Resources */,
 				7603D9752A5D3B1700DBEC92 /* CustomResources.json in Resources */,
 				9384D9D12BBEAB635D685A94 /* awsconfiguration.json in Resources */,
 				541B9C3A0C5CC0423D7F8DD5 /* amplifyconfiguration.json in Resources */,
+				7664AD5B2A9F449800935421 /* BMJUA_otf.otf in Resources */,
 				7603D9732A5D3B1700DBEC92 /* cli.json in Resources */,
+				76C4373C2A72358100F0C7DC /* kakao_login_btn.png in Resources */,
 				7603D9762A5D3B1700DBEC92 /* parameters.json in Resources */,
 				7603D9742A5D3B1700DBEC92 /* backend-config.json in Resources */,
+				76F5C13D2B63E9670018AD64 /* kakao_login_medium_wide.png in Resources */,
 				7603D9772A5D3B1700DBEC92 /* schema.graphql in Resources */,
 				7603D9722A5D3B1700DBEC92 /* project-config.json in Resources */,
 				765AEC9D2A5E608B000B4B26 /* test2.jpeg in Resources */,
+				768512262A7BAC8200159C9B /* Luvky_Icon.png in Resources */,
 				765AEC9F2A5E6092000B4B26 /* test3.jpeg in Resources */,
 				7603D9782A5D3B1700DBEC92 /* transform.conf.json in Resources */,
 			);
@@ -520,20 +688,43 @@
 				761D9C932A5ED0320096F078 /* LoginViewController.swift in Sources */,
 				7603D9332A5D38B500DBEC92 /* ViewController.swift in Sources */,
 				76FF204B2A5E3BA000DE0FBC /* HomeTableViewController.swift in Sources */,
+				769E3B822ABDBDB40087A252 /* ChatListTableViewController.swift in Sources */,
 				76FF20442A5E27EE00DE0FBC /* AddArticleViewController.swift in Sources */,
+				76F5C1352B6380310018AD64 /* Utils.swift in Sources */,
+				76CF05ED2A78BFA3005734EE /* ProfileViewController.swift in Sources */,
+				765FFBD72B556B7D0085A227 /* ServiceViewController.swift in Sources */,
+				76144F6D2A7280550075DA7A /* JoinViewController.swift in Sources */,
+				7608B2212ACC377A00AFA44C /* Sender.swift in Sources */,
 				7603D92F2A5D38B500DBEC92 /* AppDelegate.swift in Sources */,
+				765FFBD52B5565650085A227 /* UserInfoViewController.swift in Sources */,
+				7684DE342A86593900C57E48 /* UpdateNoticeViewController.swift in Sources */,
 				761D9C952A5ED0680096F078 /* FirstTabBarViewController.swift in Sources */,
 				7603D9312A5D38B500DBEC92 /* SceneDelegate.swift in Sources */,
 				76FF20492A5E285600DE0FBC /* HomeTableViewCell.swift in Sources */,
 				872425F543F42DF8957C5824 /* AmplifyModels.swift in Sources */,
 				A308F5244E12D2D9FB4F9364 /* Priority.swift in Sources */,
-				747F76C755C0F6DCAB4CBBAB /* Todo+Schema.swift in Sources */,
 				76FF20462A5E281400DE0FBC /* DetailArticleViewController.swift in Sources */,
-				CFF7903CB26AE4741CD9B264 /* Todo.swift in Sources */,
+				76CF05EF2A78C1BF005734EE /* SettingProfileViewController.swift in Sources */,
 				288231D79F6E65E0A43B5694 /* Notice+Schema.swift in Sources */,
+				76F5C13B2B63B68C0018AD64 /* AppleTokenResponse.swift in Sources */,
 				F7CD607DB9E92AA1D6F1E726 /* Notice.swift in Sources */,
+				7643E91F2ADBFB1B0060E324 /* Message.swift in Sources */,
 				9489777580FDC26558FFAFC2 /* Image+Schema.swift in Sources */,
+				765814692AFFA925001D8853 /* SettingTableViewController.swift in Sources */,
 				3EE0F6A723EA1939F829673C /* Image.swift in Sources */,
+				B435F9584ACCAF2F53166DBC /* User+Schema.swift in Sources */,
+				767A71A82ACF03B5005C695E /* UIColor.swift in Sources */,
+				F525FF85D017BFA05CC65105 /* User.swift in Sources */,
+				765EA26E2AC0439B00F5D98E /* ChattingViewController.swift in Sources */,
+				7658146B2AFFA92B001D8853 /* SettingTableViewCell.swift in Sources */,
+				A23B92B86B62DA1F35B832C4 /* Attend+Schema.swift in Sources */,
+				BA096AFF8AE16CBE7A4903AD /* Attend.swift in Sources */,
+				769E3B802ABDBD9F0087A252 /* ChatListTableViewCell.swift in Sources */,
+				7608B21E2ACC36DE00AFA44C /* ImageMediaItem.swift in Sources */,
+				BD3DA7BBC1F42084A48235A4 /* ChatMessage+Schema.swift in Sources */,
+				DA4A6612403901643AE6E4E0 /* ChatMessage.swift in Sources */,
+				227E0722B559003DD99F8F6E /* ChatChannel+Schema.swift in Sources */,
+				5B81D40E8EBE7FEB9D7B6B92 /* ChatChannel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -708,11 +899,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Luvky2/Luvky2Debug.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2QJ7FX344K;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Luvky2/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -722,12 +919,13 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tistory.pinlib.Luvky2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -736,11 +934,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Luvky2/Luvky2.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2QJ7FX344K;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Luvky2/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -750,12 +953,12 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tistory.pinlib.Luvky2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -893,6 +1096,22 @@
 				kind = branch;
 			};
 		};
+		765EA26A2AC0430E00F5D98E /* XCRemoteSwiftPackageReference "MessageKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MessageKit/MessageKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		76F5C1362B63B0F50018AD64 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -931,6 +1150,16 @@
 			package = 761ED0E42A5D70030006D045 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
 			productName = KakaoSDKUser;
 		};
+		764573162B53CBB10010101B /* AWSPinpointPushNotificationsPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7603D95E2A5D3ADC00DBEC92 /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSPinpointPushNotificationsPlugin;
+		};
+		765EA26B2AC0430E00F5D98E /* MessageKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 765EA26A2AC0430E00F5D98E /* XCRemoteSwiftPackageReference "MessageKit" */;
+			productName = MessageKit;
+		};
 		76E587822A603F2F001374CA /* AWSS3StoragePlugin */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 7603D95E2A5D3ADC00DBEC92 /* XCRemoteSwiftPackageReference "amplify-swift" */;
@@ -940,6 +1169,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 7603D95E2A5D3ADC00DBEC92 /* XCRemoteSwiftPackageReference "amplify-swift" */;
 			productName = AWSCognitoAuthPlugin;
+		};
+		76F5C1372B63B0F50018AD64 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 76F5C1362B63B0F50018AD64 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

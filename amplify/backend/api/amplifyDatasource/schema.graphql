@@ -1,0 +1,58 @@
+enum Priority {
+  LOW
+  NORMAL
+  HIGH
+}
+
+type Notice @model
+@auth(rules: [{ allow: public}]) {
+  id: ID!
+  noticeTitle: String!
+  noticeText: String!
+  Local: String!
+  Member: String!
+  ImageName: String!
+  ImageUrl: String!
+  priority: Priority
+  User: String!
+  Date: String!
+}
+
+type User @model
+@auth(rules: [{ allow: public}]) {
+  id: String!
+  UserNickName: String!
+  UserSex: String!
+  UserAge: String!
+  UserImageName: String!
+  UserImageUrl: String!
+  UserText: String!
+  Attend: String!
+  Point: Int!
+  priority: Priority
+
+}
+
+
+
+type ChatChannel @model
+@auth(rules: [{ allow: public}]) {
+  id: ID!
+  Member1: String!
+  Member2: String!
+  Date: String!
+  priority: Priority
+}
+
+type ChatMessage @model
+@auth(rules: [{ allow: public}]) {
+  id: ID!
+  channel: String!
+  sender: String!
+  message: String!
+  timestamp: String!
+  priority: Priority
+}
+
+
+
