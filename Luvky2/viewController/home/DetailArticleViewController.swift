@@ -62,35 +62,7 @@ class DetailArticleViewController: UIViewController {
         articleText.text = detailData["text"]
         
         
-        //notice & user auth check
-        /*
-        let email = userGetAuth()
-        if(email == detailData["User"]){
-            let menu1 = UIAction(title: "수정하기", handler: {_ in
-                guard let mainVC = self.storyboard?.instantiateViewController(withIdentifier: "UpdateNotice") as? UpdateNoticeViewController else { return }
-                //update view로 data 전송
-                mainVC.idData = self.detailData["noticeId"]!
-                mainVC.localData = self.detailData["local"]!
-                    (UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate)?.changeRootViewController(mainVC, animated: false)
-            }) //수정하기의 경우 어차피 글쓰는 부분으로 다시 돌아가야되니깐 의미 없음 다른 view 생성해줘야됨
-            let menu2 = UIAction(title: "삭제하기", handler: {_ in
-                Task {
-                    await self.deleteNotice(self.detailData["noticeId"] ?? "")
-                }
-            })
-
-            self.moreBtn.menu = UIMenu(title: "내것", identifier: nil, options: .displayInline, children: [menu1, menu2])
-            self.moreBtn.showsMenuAsPrimaryAction = true
-            self.moreBtn.changesSelectionAsPrimaryAction = true
-        } else {
-            // other person's notice
-            let menu1 = UIAction(title: "신고하기", handler: {_ in print("a")})
-            let menu2 = UIAction(title: "차단하기", handler: {_ in print("b")})
-            
-            self.moreBtn.menu = UIMenu(title: "니것", identifier: nil, options: .displayInline, children: [menu1, menu2])
-            self.moreBtn.showsMenuAsPrimaryAction = true
-            self.moreBtn.changesSelectionAsPrimaryAction = true
-        }*/
+        
 
         
         Task {
