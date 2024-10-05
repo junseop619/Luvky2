@@ -207,7 +207,8 @@ Database의 경우 AWS Amplify에서 권장하는 graphql을 이용하여 제작
 
 저의 데이터 베이스 구조도의 경우 아래와 같습니다.
 
-*사진
+![Luvky_DB](https://github.com/user-attachments/assets/9968ac1a-560d-4b9e-aedf-ffbc61aa65e9)
+
 
 이미 만든 graphql의 수정방법에 대해서는 본인 블로그인 [ios에서 AWS Amplify를 사용할 때 GraphQL 수정방법](https://pinlib.tistory.com/entry/ios%EC%97%90%EC%84%9C-AWS-Amplify%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%A0-%EB%95%8C-GraphQL-%EC%88%98%EC%A0%95%EB%B0%A9%EB%B2%95) 해당 게시물에 작성하였으니 참고해주세요.
 
