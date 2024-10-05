@@ -187,31 +187,47 @@ Chat은 크게 채팅방 리스트와 채팅 화면으로 나뉘어져 있습니
 
 > ## 2-5-1. ChatList
 
-
-
+ChatList도 마찬가지로 ~
 
 > ## 2-5-2. ChattingView
 
+<br></br>
 
-> 2-6. Setting
+## 2-6. Setting
 
 ![setting](https://github.com/user-attachments/assets/c316f716-2f35-4cc1-a3fc-b5366567e15b)
 
-
-
+<br></br>
 
 # 3. 기능 구현
 
-> 3-1. Database
+## 3-1. Database
+
+Database의 경우 AWS Amplify에서 권장하는 graphql을 이용하여 제작하였습니다.
+
+저의 데이터 베이스 구조도의 경우 아래와 같습니다.
+
+*사진
+
+이미 만든 graphql의 수정방법에 대해서는 본인 블로그인 [ios에서 AWS Amplify를 사용할 때 GraphQL 수정방법](https://pinlib.tistory.com/entry/ios%EC%97%90%EC%84%9C-AWS-Amplify%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%A0-%EB%95%8C-GraphQL-%EC%88%98%EC%A0%95%EB%B0%A9%EB%B2%95) 해당 게시물에 작성하였으니 참고해주세요.
+
+## 3-2. AWS Amplify CRUD
+
+Luvky의 경우 AWS Amplify를 서버로 사용하였습니다.
+
+SWIFT에서 AWS Amplify를 이용해 CRUD를 구현하는 방법은 본인 블로그인 [[SWIFT] IOS 에서 AWS Amplify를 이용해 CRUD 구현하기](https://pinlib.tistory.com/entry/amplify1) 해당 게시물에 작성하였으니 참조해주세요.
+
+SWIFT에서 AWS S3를 이용하여 image를 upload & download하는 방법의 경우 아래의 링크 참조 부탁드립니다.
+
+1. 이론편 [ios에서 AWS Amplify S3를 이용하여 image upload, download하기](https://pinlib.tistory.com/entry/ios%EC%97%90%EC%84%9C-AWS-Amplify-S3%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC-image-upload-download%ED%95%98%EA%B8%B0)
+
+2. 실습예제 [[SWIFT] IOS에서 AWS Amplify를 이용해 이미지 저장과 불러오기(S3 storage)](https://pinlib.tistory.com/entry/amplify2)
+
+# 3-3. Kakao Login with AWS Amplify
 
 
-> 3-2. AWS Amplify CRUD
 
-
-> 3-3. Kakao Login with AWS Amplify
-
-
-> 3-4. Chatting System 
+# 3-4. Chatting System 
 
 
 
