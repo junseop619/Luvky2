@@ -54,6 +54,15 @@
 
 3. 기능 구현
 
+    3-1. Database
+
+    3-2. AWS Amplify CRUD
+
+    3-3. Kakao Login with AWS Amplify
+
+    3-4. Chatting System
+
+
 
 
 
